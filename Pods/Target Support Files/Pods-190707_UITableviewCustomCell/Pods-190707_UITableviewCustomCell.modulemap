@@ -1,0 +1,6 @@
+framework module Pods_190707_UITableviewCustomCell {
+  umbrella header "Pods-190707_UITableviewCustomCell-umbrella.h"
+
+  export *
+  module * { export * }
+}

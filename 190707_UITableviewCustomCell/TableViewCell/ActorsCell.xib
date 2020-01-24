@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="156" id="KGk-i7-Jjw" customClass="ActorsCell" customModule="_90707_UITableviewCustomCell" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="156"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="156"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="41m-mS-0A7">
+                        <rect key="frame" x="15" y="5" width="290" height="146"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="XLC-VL-Uxe">
+                                <rect key="frame" x="5" y="5" width="280" height="136"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="wby-pq-QPv">
+                                        <rect key="frame" x="0.0" y="0.0" width="280" height="80"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gl9-aC-F0p">
+                                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="Gwc-4o-Xf8"/>
+                                                    <constraint firstAttribute="width" constant="80" id="QYp-SB-lmw"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="DKG-F7-Mbe">
+                                                <rect key="frame" x="90" y="0.0" width="190" height="80"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cM1-gg-FpN">
+                                                        <rect key="frame" x="0.0" y="0.0" width="190" height="26.5"/>
+                                                        <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="18"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GIx-aF-GsP">
+                                                        <rect key="frame" x="0.0" y="26.5" width="190" height="27"/>
+                                                        <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="16"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="snK-LV-zwC">
+                                                        <rect key="frame" x="0.0" y="53.5" width="190" height="26.5"/>
+                                                        <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="16"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="1wE-cQ-fah">
+                                        <rect key="frame" x="0.0" y="90" width="280" height="46"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sbW-NS-B00">
+                                                <rect key="frame" x="0.0" y="0.0" width="93.5" height="46"/>
+                                                <color key="tintColor" red="0.3437103426" green="0.039382491819999997" blue="0.075474734759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" image="hand.thumbsup" catalog="system">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Like">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.3437103426" green="0.039382491819999997" blue="0.075474734759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                                <integer key="NSUnderline" value="1"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <action selector="likeActionBtn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="M3N-Vd-4qc"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ATo-zo-AvA">
+                                                <rect key="frame" x="93.5" y="0.0" width="93" height="46"/>
+                                                <color key="tintColor" red="0.3437103426" green="0.039382491819999997" blue="0.075474734759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" image="bubble.left" catalog="system">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Comment">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.3437103426" green="0.039382491819999997" blue="0.075474734759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                                <integer key="NSUnderline" value="1"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <action selector="commentActionBtn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="fux-DE-xRt"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KZs-aO-cr7">
+                                                <rect key="frame" x="186.5" y="0.0" width="93.5" height="46"/>
+                                                <color key="tintColor" red="0.3437103426" green="0.039382491819999997" blue="0.075474734759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" image="arrowshape.turn.up.right" catalog="system">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Share">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.3437103426" green="0.039382491819999997" blue="0.075474734759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                                <integer key="NSUnderline" value="1"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <action selector="shareActionBtn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="EVG-qW-dYr"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="XLC-VL-Uxe" secondAttribute="bottom" constant="5" id="I0U-dv-hkQ"/>
+                            <constraint firstItem="XLC-VL-Uxe" firstAttribute="top" secondItem="41m-mS-0A7" secondAttribute="top" constant="5" id="hEc-jM-aXN"/>
+                            <constraint firstItem="XLC-VL-Uxe" firstAttribute="leading" secondItem="41m-mS-0A7" secondAttribute="leading" constant="5" id="ohG-1K-onZ"/>
+                            <constraint firstAttribute="trailing" secondItem="XLC-VL-Uxe" secondAttribute="trailing" constant="5" id="rNW-jk-6R5"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="clipToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="41m-mS-0A7" secondAttribute="bottom" constant="5" id="JC9-3Z-Otc"/>
+                    <constraint firstAttribute="trailing" secondItem="41m-mS-0A7" secondAttribute="trailing" constant="15" id="Tv9-d7-rME"/>
+                    <constraint firstItem="41m-mS-0A7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="d0p-zV-b44"/>
+                    <constraint firstItem="41m-mS-0A7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="kFU-ZP-Mhx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="actorAgeLbl" destination="GIx-aF-GsP" id="6J1-UV-vvj"/>
+                <outlet property="actorImage" destination="gl9-aC-F0p" id="ANp-VY-PMu"/>
+                <outlet property="actorMobileLbl" destination="snK-LV-zwC" id="Loe-AC-T2b"/>
+                <outlet property="actorNameLbl" destination="cM1-gg-FpN" id="iw6-eq-Udr"/>
+            </connections>
+            <point key="canvasLocation" x="92.753623188405811" y="150.66964285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrowshape.turn.up.right" catalog="system" width="64" height="52"/>
+        <image name="bubble.left" catalog="system" width="64" height="54"/>
+        <image name="hand.thumbsup" catalog="system" width="64" height="64"/>
+    </resources>
+</document>

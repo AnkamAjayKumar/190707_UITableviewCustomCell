@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="PoliticiansCell" customModule="_90707_UITableviewCustomCell" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="156"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="156"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gd1-9t-o8w">
+                        <rect key="frame" x="15" y="5" width="290" height="146"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="4sn-kn-a8c">
+                                <rect key="frame" x="5" y="5" width="280" height="136"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="NPs-UE-gcZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="280" height="80"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="VJz-PJ-pyu">
+                                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wMn-fr-gni">
+                                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="80" id="jmk-rh-et4"/>
+                                                            <constraint firstAttribute="width" constant="80" id="yYa-iZ-nN8"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Hwg-p1-0ea">
+                                                <rect key="frame" x="90" y="0.0" width="190" height="80"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AuE-Fv-KvD">
+                                                        <rect key="frame" x="0.0" y="0.0" width="190" height="26.5"/>
+                                                        <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="18"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kwX-sb-Jrs">
+                                                        <rect key="frame" x="0.0" y="26.5" width="190" height="27"/>
+                                                        <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="16"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2oV-2w-et0">
+                                                        <rect key="frame" x="0.0" y="53.5" width="190" height="26.5"/>
+                                                        <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="16"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="EoD-AU-lY5">
+                                        <rect key="frame" x="0.0" y="90" width="280" height="46"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CWv-wd-SjR">
+                                                <rect key="frame" x="0.0" y="0.0" width="93.5" height="46"/>
+                                                <color key="tintColor" red="0.3437103426" green="0.039382491819999997" blue="0.075474734759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" image="hand.thumbsup" catalog="system">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Like">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.3437103426" green="0.039382491819999997" blue="0.075474734759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                                <integer key="NSUnderline" value="1"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <action selector="likeActionBtn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="FbA-4z-jWo"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vwf-tm-3pE">
+                                                <rect key="frame" x="93.5" y="0.0" width="93" height="46"/>
+                                                <color key="tintColor" red="0.3437103426" green="0.039382491819999997" blue="0.075474734759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" image="bubble.left" catalog="system">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Comment">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.3437103426" green="0.039382491819999997" blue="0.075474734759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                                <integer key="NSUnderline" value="1"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <action selector="commentActionBtn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="WyX-eo-s25"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NL8-Up-dbz">
+                                                <rect key="frame" x="186.5" y="0.0" width="93.5" height="46"/>
+                                                <color key="tintColor" red="0.3437103426" green="0.039382491819999997" blue="0.075474734759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" image="arrowshape.turn.up.right" catalog="system">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Share">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.3437103426" green="0.039382491819999997" blue="0.075474734759999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" metaFont="system" size="15"/>
+                                                                <integer key="NSUnderline" value="1"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <action selector="shareActionBtn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="wdl-mm-Aeg"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="0.80549015410958902" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="4sn-kn-a8c" secondAttribute="bottom" constant="5" id="VAN-wf-IT2"/>
+                            <constraint firstAttribute="trailing" secondItem="4sn-kn-a8c" secondAttribute="trailing" constant="5" id="Wle-Tg-SsV"/>
+                            <constraint firstItem="4sn-kn-a8c" firstAttribute="top" secondItem="Gd1-9t-o8w" secondAttribute="top" constant="5" id="k0N-KU-IUS"/>
+                            <constraint firstItem="4sn-kn-a8c" firstAttribute="leading" secondItem="Gd1-9t-o8w" secondAttribute="leading" constant="5" id="oS0-Id-tee"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="clipToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Gd1-9t-o8w" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="BSH-5C-wwP"/>
+                    <constraint firstItem="Gd1-9t-o8w" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="TMJ-gv-wjM"/>
+                    <constraint firstAttribute="trailing" secondItem="Gd1-9t-o8w" secondAttribute="trailing" constant="15" id="axw-MR-tqq"/>
+                    <constraint firstAttribute="bottom" secondItem="Gd1-9t-o8w" secondAttribute="bottom" constant="5" id="fKA-uf-eSE"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="politicianAgeLbl" destination="kwX-sb-Jrs" id="Mos-lJ-GfB"/>
+                <outlet property="politicianImage" destination="wMn-fr-gni" id="40W-zm-mci"/>
+                <outlet property="politicianMobileLbl" destination="2oV-2w-et0" id="T9E-Et-zLU"/>
+                <outlet property="politicianNameLbl" destination="AuE-Fv-KvD" id="Elv-kS-Sbl"/>
+            </connections>
+            <point key="canvasLocation" x="80" y="25"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrowshape.turn.up.right" catalog="system" width="64" height="52"/>
+        <image name="bubble.left" catalog="system" width="64" height="54"/>
+        <image name="hand.thumbsup" catalog="system" width="64" height="64"/>
+    </resources>
+</document>
